@@ -1,0 +1,18 @@
+//Commands to initialize webpack.
+npm init -y
+npm i react react-dom
+npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader file-loader css-loader sass-loader sass webpack webpack-cli
+npm i -D style-loader
+npm i -D mini-css-extract-plugin -D webpack-dev-server
+
+//For running the webpack development server.
+npm run serve
+
+//Command to run the test cases.
+npm test
+
+//Installing the libraries for testing.
+npm install --save-dev @testing-library/react
+npm i -D jest
+npm i jest-environment-jsdom --save-dev
+npm i --save-dev @testing-library/jest-dom

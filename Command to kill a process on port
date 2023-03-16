@@ -1,0 +1,2 @@
+sudo netstat -lpn |grep :3010
+kill -9 7036
